@@ -1,0 +1,15 @@
+173  echo "lucila rizzi 27-11-18 4:54" >> Punto2.txt
+174  git checkout -b "lucila"
+183  git add . && git commit -m "lucila"
+185  git clone -b mariano https://github.com/marianomadou/tp_Punto2
+186  cd tp_Punto2/
+187  cat Beta.txt
+188  echo "lucila rizzi 10.16.11.75 17:20" >> Beta.txt
+189  git add . && git commit -m "lucila"
+190  git push origin mariano
+191  nano Beta.txt
+192  git add . && git commit -m "lucila"
+193  git push origin mariano
+196  git checkout master
+202  git merge
+203  git push
