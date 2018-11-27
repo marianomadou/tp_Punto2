@@ -1,3 +1,4 @@
+//Lucila
 173  echo "lucila rizzi 27-11-18 4:54" >> Punto2.txt
 174  git checkout -b "lucila"
 183  git add . && git commit -m "lucila"
@@ -13,3 +14,9 @@
 196  git checkout master
 202  git merge
 203  git push
+///Mariano
+git config --global http.proxy http://10.11.5.111:8080
+git add . && git commit -m "algo algo" && git push origin master
+git checkout -b "mariano"
+echo "mariano madou 10.16.11.39 17:01" >> Beta.txt 
+git push -f origin mariano
