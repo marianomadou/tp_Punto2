@@ -22,7 +22,32 @@ echo "mariano madou 10.16.11.39 17:01" >> Beta.txt
 
 
 //tp3
-git push -f origin mariano
+  228  git clone "https://github.com/dfjar/tp_Punto3"
+  229  git checkout -b lucila
+  230  cd tp_Punto3
+  231  git checkout -b lucila
+  232  echo "lucila 10
+  233  echo "10.16.11.33 lucila " >> Datos.txt
+  234  git add . && git commit -m "lucila"
+  235  git push origin  lucila
+  236  git checkout master
+  237  git merge lucila
+  238  git push
+  239  git merge mariano
+  240  git checkout mariano
+  241  git pull
+  242  git merge mariano
+  243  git merge origin/mariano
+  244* git add
+  245  git checkout mariano
+  246  git checkout master
+  247  nano Datos.txt
+  248  git add . && git commit -m "conflicto resuelto"
+  249  git merge
+  250  git push
+  251  git history
+
+//historial mariano
 git clone https://github.com/dfjar/tp_Punto3
 git checkout -b mariano
 ls -l
