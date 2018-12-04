@@ -47,7 +47,7 @@ echo "mariano madou 10.16.11.39 17:01" >> Beta.txt
   250  git push
   251  git history
 
-//historial mariano
+//historial mariano tp3
 git clone https://github.com/dfjar/tp_Punto3
 git checkout -b mariano
 ls -l
