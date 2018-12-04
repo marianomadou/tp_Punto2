@@ -19,4 +19,13 @@ git config --global http.proxy http://10.11.5.111:8080
 git add . && git commit -m "algo algo" && git push origin master
 git checkout -b "mariano"
 echo "mariano madou 10.16.11.39 17:01" >> Beta.txt 
+
+
+//tp3
 git push -f origin mariano
+git clone https://github.com/dfjar/tp_Punto3
+git checkout -b mariano
+ls -l
+nano Datos.txt
+git add . && git commit -m "subido"
+git push origin mariano
